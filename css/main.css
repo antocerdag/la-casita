@@ -134,3 +134,45 @@
 	top: 560px;
 	left: -10px;
 }
+
+.patio{
+	position: fixed;
+    left: 765px;
+    top: 530px;
+    
+}
+
+#suelo{
+	background-color: #236F1B;
+    width: 452px;
+    height: 68px;
+    position: absolute;
+    top: 32px;
+}
+
+#mesa{
+	background-color: #CCCCCC;
+    width: 100px;
+    height: 24px;
+    position: absolute;
+    top: -6px;
+    left: 15px;
+}
+
+#pata1 {
+	position: absolute;
+    background-color: #7F7F7F;
+    width: 24px;
+    height: 75px;
+    top: 18px;
+    left: 15px;
+}
+
+#pata2 {
+	position: absolute;
+    background-color: #7F7F7F;
+    width: 24px;
+    height: 75px;
+    top: 18px;
+    left: 91px;
+}
