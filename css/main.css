@@ -1,0 +1,97 @@
+
+#sol{
+	background-color: #FFFF00;
+	border-radius: 50%;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 25px;
+	left: 15px;
+	display: inline-block;
+}
+
+#chimenea{
+background-color: tomato;
+	width: 50px;
+	height: 100px;
+}
+
+#techo{
+
+	
+	border-bottom: 100px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+
+}
+
+#pared{
+	
+	background-color: #3D2000;
+	width: 200px;
+	height: 100px;
+
+}
+
+#ventana {
+	background-color: #EF89C0;
+	width: 100px;
+	height:100px;
+}
+
+#puerta{
+	background-color: #4C4644;
+	width: 100px;
+	height: 100px;
+}
+
+#corazon{
+	background-color: #ED0C1E;
+
+}
+
+#corazon:before,
+#corazon:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#corazon:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+#pasto{
+	background-color: #008000;
+	width: 1800px;
+    height: 140px;
+	position: fixed;
+	top: 560px;
+	left: -10px;
+}
