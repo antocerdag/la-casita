@@ -10,45 +10,84 @@
 	display: inline-block;
 }
 
+#humo1 {
+	background-color: grey;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 660px;
+    top: 297px;
+}
+
+#humo2 {
+    background-color: grey;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 673px;
+    top: 285px;
+}
+
 #chimenea{
-background-color: tomato;
-	width: 50px;
-	height: 100px;
+	display: inline-block;
+    background-color: tomato;
+    width: 34px;
+    height: 80px;
+    position: fixed;
+    left: 634px;
+    top: 315px;
+
 }
 
 #techo{
 
-	
-	border-bottom: 100px solid black;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 0;
-	width: 100px;
-
+	border-bottom: 118px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0px;
+    width: 285px;
+    position: absolute;
+    left: 380px;
+    top: 302px;
 }
 
 #pared{
-	
-	background-color: #3D2000;
-	width: 200px;
-	height: 100px;
-
+	display: inline-block;
+    position: absolute;
+    background-color: #3D2000;
+    width: 385px;
+    height: 210px;
+    left: 380px;
+    top: 420px;
 }
 
 #ventana {
 	background-color: #EF89C0;
-	width: 100px;
-	height:100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 620px;
+    top: 470px;
+
 }
 
 #puerta{
-	background-color: #4C4644;
-	width: 100px;
-	height: 100px;
+    background-color: #4C4644;
+    width: 129px;
+    height: 172px;
+    position: absolute;
+    left: 424px;
+    top: 458px;
+
 }
 
 #corazon{
 	background-color: #ED0C1E;
+    position: absolute;
+    left: 439px;
+    top: 490px;
 
 }
 
